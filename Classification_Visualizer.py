@@ -222,7 +222,7 @@ if __name__ == '__main__':
                       colors=((1.,0.,0.),(0.,1.,0.)),
                       alpha = .3)
                 # Updats the figures and pauses script for 1 second
-                plt.pause(1.)
+                plt.pause(.1)
             
             # For when training session is canceled
             if escaper == True:
