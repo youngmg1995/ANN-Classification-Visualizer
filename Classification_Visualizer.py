@@ -129,8 +129,8 @@ if __name__ == '__main__':
     ax1.set_title("Select Points Using Cursor, Press Enter to Accept")
     ax2.set_title("ANN Classification: Backspace to Cancel")
     fig.subplots_adjust(bottom = .2)
-    text1 = fig.text(0.10,0.05, 'Accuracy:', fontsize=20)
-    text2 = fig.text(0.40,0.05, 'Cost:', fontsize=20)
+    text1 = fig.text(0.15,0.05, 'Accuracy:', fontsize=20)
+    text2 = fig.text(0.45,0.05, 'Cost:', fontsize=20)
     text3 = fig.text(0.70,0.05, 'Status:', fontsize=20)
     
     # Setting some global variables to help with conditions for certain actions
@@ -189,8 +189,8 @@ if __name__ == '__main__':
                 text1.remove()
                 text2.remove()
                 text3.remove()
-                text1 = fig.text(0.10,0.05, 'Accuracy: {}%'.format(accuracy), fontsize=20)
-                text2 = fig.text(0.40,0.05, 'Cost: %.3f'%cost+'%', fontsize=20)
+                text1 = fig.text(0.15,0.05, 'Accuracy: {}%'.format(accuracy), fontsize=20)
+                text2 = fig.text(0.45,0.05, 'Cost: %.3f'%cost, fontsize=20)
                 if accuracy == 100:
                     text3 = fig.text(0.70,0.05, 'Status: Finished', fontsize=20)
                 else: 
