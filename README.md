@@ -1,7 +1,7 @@
 # ANN-Classification-Visualizer
 Interactive GUI for representing how neural networks classify data.
 
-<img src="/Images/Finished.png" width=600>
+<img src="/Images/Finished.png" width=800>
 
 ## Description
 The purpose of this project was to build a visual representation of how neural networks classify datasets and train to do so. Through this project and the use of the visualizer we hope users will gain a better intuitve understanding of how neural networks classify data and why the process works. To accomplish this task we will classify a simple set of 2-D data points: (x,y) into two groups using a dense neural network with structure 2-50-50-2. As the network is trained, we will visulaize the process by displaying each classification region overtop of our dataset.
