@@ -1,5 +1,5 @@
 # ANN-Classification-Visualizer
-Interactive GUI for representing how neural networks classify data.
+Interactive GUI for representing how neural networks classify clusters of data.
 
 <img src="/Images/Finished.png" width=800>
 
